@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-class mySterling extends React.Component {
+class MySterling extends React.Component {
   render () {
     const headStyle = {
       color: "orange",
@@ -26,5 +26,5 @@ class mySterling extends React.Component {
   }
 }
 
-const root = ReactDOM.createRoot(document.getElementById)
-root.render(<mySterling/>);
+const root = ReactDOM.createRoot(document.getElementById('root'))
+root.render(<MySterling/>);
